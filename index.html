@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sítio Ferranti | Refeições italianas em Arroio Trinta - SC</title>
+<meta name="description" content="Refeições típicas italianas no Sítio Ferranti, Linha Sangaletti, Arroio Trinta - SC. Estrutura para grupos e famílias, todos os dias com agendamento.">
+<meta property="og:title" content="Sítio Ferranti | Refeições italianas em Arroio Trinta">
+<meta property="og:description" content="Almoços e encontros no campo, com mesa italiana. Agende pelo WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Sítio Ferranti","telephone":"+5549998208363","servesCuisine":"Italiana","acceptsReservations":true,"address":{"@type":"PostalAddress","streetAddress":"Linha Sangaletti","addressLocality":"Arroio Trinta","addressRegion":"SC","postalCode":"89590-000","addressCountry":"BR"}}
+</script>
+<style>
+:root{--noite:#1e2b3a;--ocre:#c8963e;--gelo:#f1f3f0;--musgo:#4a5d3a;--texto:#1b222b}
+*{box-sizing:border-box;margin:0}
+body{font-family:"DM Sans",system-ui,sans-serif;background:var(--gelo);color:var(--texto);line-height:1.65}
+h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;line-height:1.1}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ocre);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+.hero{background:var(--noite);color:var(--gelo);padding:70px 0}
+.hero .wrap{display:grid;gap:36px;grid-template-columns:1fr}
+.hero h1{font-size:clamp(3.2rem,14vw,7rem)}
+.hero h1 span{display:block;color:var(--ocre)}
+.hero p{max-width:36ch;font-size:1.15rem}
+.btn{display:inline-block;margin-top:24px;padding:14px 26px;background:var(--ocre);color:var(--noite);font:inherit;font-weight:700;text-decoration:none;border:0;border-radius:2px;cursor:pointer}
+@media(min-width:760px){.hero .wrap{grid-template-columns:1.3fr 1fr;align-items:end}}
+section{padding:60px 0}
+h2{font-size:clamp(2rem,6vw,2.8rem);margin-bottom:18px;color:var(--noite)}
+p{max-width:60ch}
+.split{display:grid;gap:30px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.lista{list-style:none;padding:0}
+.lista li{padding:12px 0;border-bottom:1px solid #c9cfc4}
+section.escura{background:var(--musgo);color:var(--gelo)}
+section.escura h2{color:#fff}
+form{display:grid;gap:12px;max-width:420px;margin-top:16px}
+label{font-weight:700;font-size:.95rem}
+input{width:100%;padding:12px;border:1px solid #8b9786;border-radius:2px;font:inherit;background:#fff;color:var(--texto)}
+footer{background:var(--noite);color:#cfd6dc;padding:28px 0;font-size:.95rem}
+footer a{color:var(--ocre)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div><h1>Sítio <span>Ferranti</span></h1></div>
+    <div><p>Refeições típicas italianas em meio ao campo de Arroio Trinta, para famílias e grupos.</p>
+    <a class="btn" href="#agendar">Agendar uma data</a></div>
+  </div>
+</header>
+
+<main>
+<section><div class="wrap split">
+  <div>
+    <h2>Um dia inteiro à mesa</h2>
+    <p>O Sítio Ferranti tem estrutura para receber refeições típicas italianas na Linha Sangaletti. É um lugar para juntar a família, reunir amigos ou celebrar uma data, sem pressa e com a tradição da colonização italiana na mesa.</p>
+  </div>
+  <ul class="lista">
+    <!-- Ajuste conforme o que o sítio oferece de verdade -->
+    <li><strong>Refeições típicas italianas</strong></li>
+    <li><strong>Espaço para grupos e famílias</strong></li>
+    <li><strong>Atendimento todos os dias, sob agendamento</strong></li>
+    <li><strong>Aceita reservas</strong></li>
+  </ul>
+</div></section>
+
+<section class="escura" id="agendar"><div class="wrap split">
+  <div>
+    <h2>Agendar</h2>
+    <p>Diga a data e o número de pessoas. A mensagem já abre pronta no WhatsApp.</p>
+    <form id="f">
+      <div><label for="n">Seu nome</label><input id="n" required></div>
+      <div><label for="d">Data desejada</label><input id="d" type="date" required></div>
+      <div><label for="p">Número de pessoas</label><input id="p" type="number" min="1" required></div>
+      <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+  <div>
+    <h2>Onde fica</h2>
+    <p>Linha Sangaletti, Arroio Trinta - SC.<br>
+    <a href="https://www.google.com/maps/search/?api=1&query=S%C3%ADtio+Ferranti+Linha+Sangaletti+Arroio+Trinta+SC" target="_blank" rel="noopener">Abrir no mapa</a></p>
+    <p style="margin-top:12px">Telefone: <a href="tel:+5549998208363">(49) 99820-8363</a></p>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">Sítio Ferranti · Arroio Trinta - SC · <a id="ig" href="#" hidden target="_blank" rel="noopener">Instagram</a></div></footer>
+
+<script>
+// Confirme se o número é WhatsApp. Preencha o Instagram sem @ (se vazio, o link não aparece).
+const WHATSAPP = "5549998208363";
+const INSTAGRAM = "";
+if (INSTAGRAM) { const a = document.getElementById("ig"); a.href = "https://instagram.com/" + INSTAGRAM; a.hidden = false; }
+document.getElementById("f").addEventListener("submit", e => {
+  e.preventDefault();
+  const [y,m,d] = document.getElementById("d").value.split("-");
+  const msg = `Olá! Gostaria de agendar uma refeição no Sítio Ferranti.%0ANome: ${encodeURIComponent(document.getElementById("n").value)}%0AData: ${d}/${m}/${y}%0APessoas: ${document.getElementById("p").value}`;
+  window.open(`https://wa.me/${WHATSAPP}?text=${msg}`, "_blank", "noopener");
+});
+</script>
+</body>
+</html>
